@@ -1,0 +1,25 @@
+package projects;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Durjoy
+ */
+public class calculation {
+    public static int main(String[] args){
+    float a,b,c,d,e,f;
+    Scanner Sc = new Scanner(System.in);
+    a = Sc.nextFloat();
+    b = Sc.nextFloat();
+    c = a+b;
+    d = a-b;
+    e = a*b;
+    f = a/b;
+    System.out.println("Sum is" +c);
+    System.out.println("sub is" +d);
+    System.out.println("mul is" +e);
+    System.out.println("div is" +f);
+    return 0;
+    }
+}
+
