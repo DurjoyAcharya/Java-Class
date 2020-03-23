@@ -1,0 +1,24 @@
+// Java program to demonstrate sqrt() method 
+
+import java.math.*; 
+
+public class GFG { 
+
+	public static void main(String[] args) 
+	{ 
+
+		// Creating a BigDecimal object 
+		BigDecimal a, squareRoot; 
+
+		a = new BigDecimal("100000000000000000000"); 
+
+		MathContext mc 
+			= new MathContext(10); 
+
+		squareRoot = a.sqrt(mc); 
+
+		// print result 
+		System.out.println("Square root value of " + a 
+						+ " is " + squareRoot); 
+	} 
+} 
